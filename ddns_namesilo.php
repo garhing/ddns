@@ -86,7 +86,7 @@ class namesilo
             return false;
         }
 
-        file_put_contents($file, $nowIP . "\r\n");
+        file_put_contents($file, $nowIP);
 
         return $nowIP;
     }
