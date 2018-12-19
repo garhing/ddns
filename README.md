@@ -10,7 +10,7 @@
 
     chmod a+x /root/ddns_namesilo.php
     
-#### 04.定时任务
+#### 03.定时任务
 
     crontab -e   */10 * * * * php /root/ddns_namesilo.php
     
